@@ -1,0 +1,74 @@
+{
+    "id": 2,
+    "epoch": {
+        "configVer": 5,
+        "generation": 1
+    },
+    "replicas": [
+        {
+            "id": 3,
+            "storeID": 1,
+            "initialMember": true
+        },
+        {
+            "id": 6,
+            "storeID": 5
+        },
+        {
+            "id": 8,
+            "storeID": 7
+        }
+    ],
+    "labels": null
+}
+//---------------------------------
+{
+    "id": 10,
+    "end": "azE=",
+    "epoch": {
+        "configVer": 8,
+        "generation": 3
+    },
+    "replicas": [
+        {
+            "id": 11,
+            "storeID": 1,
+            "initialMember": true
+        },
+        {
+            "id": 13,
+            "storeID": 7,
+            "initialMember": true
+        },
+        {
+            "id": 18,
+            "storeID": 9
+        }
+    ],
+    "labels": null
+},
+{
+    "id": 14,
+    "start": "azE=",
+    "epoch": {
+        "configVer": 8,
+        "generation": 3
+    },
+    "replicas": [
+        {
+            "id": 15,
+            "storeID": 1,
+            "initialMember": true
+        },
+        {
+            "id": 17,
+            "storeID": 7,
+            "initialMember": true
+        },
+        {
+            "id": 19,
+            "storeID": 9
+        }
+    ],
+    "labels": null
+}

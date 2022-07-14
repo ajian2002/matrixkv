@@ -1,5 +1,6 @@
 FROM golang:1.17.5-alpine3.15 as builder
 
+RUN go env -w GOPROXY=https://goproxy.cn,direct
 RUN MAIN_VERSION=$(cat /etc/alpine-release | cut -d '.' -f 0-2) \
     && mv /etc/apk/repositories /etc/apk/repositories-bak \
     && { \
